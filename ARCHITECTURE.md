@@ -24,4 +24,4 @@ Archimedes is designed as one identity with one active device at a time. A guard
 
 ## Voice continuity
 
-Archimedes uses one portable voice profile—Kokoro Adam at 0.95x—across the Apple and Windows renderers. A future phone client must implement the same profile contract; this showcase does not claim that a phone client already exists. Platform engines and hardware may introduce small acoustic differences.
+Archimedes uses one portable voice profile—Kokoro Adam at 0.95x—across the Apple and Windows renderers. A future phone client must implement the same profile contract; this showcase does not claim that a phone client already exists. Platform engines and hardware may introduce small acoustic differences. The terminal voice path supports hands-free turn detection and interruption of normal replies, while protected approvals remain serialized and fail closed.
