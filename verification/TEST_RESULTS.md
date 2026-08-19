@@ -5,7 +5,7 @@
 - Date: 2026-08-19
 - Python test framework: pytest 8.4.2
 - Result: **PASS**
-- Tests: **290 passed**
+- Tests: **299 passed**
 - Failures: **0**
 
 ## Duncan adversarial run
@@ -22,6 +22,6 @@ Duncan first runs the tested project's own baseline suite, then applies adversar
 
 ## Scope statement
 
-The test suite covers routing, planning, approvals, permissions, integrity, memory, audit behavior, coding-tool confinement, cancellation, runtime state, Windows voice adapters, macOS voice adapters, platform selection, text and desktop interfaces, guarded single-device handoff behavior, and automatic lease renewal.
+The test suite covers routing, planning, approvals, permissions, integrity, memory, audit behavior, coding-tool confinement, cancellation, runtime state, Windows voice adapters, macOS voice adapters, portable voice identity, checksum-verified voice setup, platform selection, text and desktop interfaces, guarded single-device handoff behavior, and automatic lease renewal.
 
 Hardware-specific microphone permissions and audio-device behavior require a live check on each target computer and are not represented as CI-verified.
