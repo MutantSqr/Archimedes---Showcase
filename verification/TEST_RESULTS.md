@@ -5,7 +5,7 @@
 - Date: 2026-08-19
 - Python test framework: pytest 8.4.2
 - Result: **PASS**
-- Tests: **303 passed**
+- Tests: **304 passed**
 - Failures: **0**
 
 ## Duncan adversarial run
